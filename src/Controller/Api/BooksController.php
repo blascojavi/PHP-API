@@ -22,7 +22,7 @@ class BooksController extends AbstractFOSRestController
         return $bookRepository->findAll();
     }
 
-
+#Prueba de commit
     /**
      * @Rest\Post(path="/books")
      * @Rest\View(serializerGroups={"book"}, serializerEnableMaxDepthChecks=true)
